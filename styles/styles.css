@@ -1,0 +1,169 @@
+
+body{
+    background-image: linear-gradient(to bottom, #b41705, #cb5400, #dd8206, #ebaf27, #f6db4d);
+}
+
+.header__logo{
+    width: 200px;
+    height: 100px;
+    position:absolute;
+    top:0;
+    left: 0;
+}
+
+.header__boton{
+    border-radius: 25px;
+    background-color:orange ;
+}
+
+.header__boton--rojo{
+    background-color: red;
+}
+
+ul{
+    box-sizing: content-box;
+}
+
+li{
+    display:inline-block;
+    padding-top:10px;
+    padding-bottom: 10px;
+    margin:0px;
+
+}
+
+h5{
+    font-size: 40px;
+}
+.row{
+    --bs-gutter-x:0rem;
+}
+
+.card-body{
+    background-color: black;
+    color:white;
+    border-top: 3px  solid orange;
+
+}
+
+li a{
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-decoration:none;
+    font-size: 20px;
+    color:white;
+    background-color:grey;
+    margin:0px;
+    background-image: linear-gradient(rgb(104, 102, 102), rgb(32, 32, 32));
+}
+
+.banner__boton__izquierdo{
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.banner__boton__derecho{
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.banner{
+    height: 500px;
+    margin-top:50px;
+}
+
+.header{
+    position:relative;
+    text-align: center;
+}
+
+.header__imagen{
+    height: 250px;
+    margin:auto;
+}
+
+.carrousel{
+    background-color: black;
+    width: 800px;
+    height: 450px;
+    margin: auto;
+}
+
+.carrousel img{
+    height: 450px;
+}
+
+
+.no__padding{
+    padding:0px;
+    text-align: center;
+}
+
+.banner__imagen{
+    width: 306px;
+    height: 479px;
+}
+
+.banner__imagen--ms{
+    width: 350px;
+}
+.seccion{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.seccion article{
+    width:400px;
+}
+.card{
+    padding:0px;
+    border-radius:20px;
+    border-color: #EBB028;
+    box-shadow: 12px 2px 14px 1px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top{
+    width: 100%;
+    height:224px;
+}
+
+.div__boton__tienda{
+    text-align: center;
+}
+
+.boton__tienda{
+    border-radius: 25px;
+    color:white;
+    background-color: orange;
+    padding:5px;
+    border:none;
+}
+
+.boton__tienda:hover{
+    background-color: #F2CB3F;
+}
+
+.footer{
+    text-align: center;
+    height: 100px;
+    background-color: black;
+    border-top:3px solid orange;
+    color:white;
+}
+.footer p{
+    padding-top:50px;
+    font-size: 10px;
+}
+.personaje{
+    text-align: center;
+    color: white;
+}
+
+
+.personaje h4{
+  
+    font-size:30px;
+}
+
